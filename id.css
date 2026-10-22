@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f8fc;
+  color: #1421 3d;
+  min-height: 100vh;
+}
+
+header{
+   display: flex;
+   width: 100%;
+   background-color: #eaeaea0e;
+   height: 65px;
+   animation:fadelefttoright 1s ease;
+}
+@keyframes fadelefttoright{
+  10%{
+    opacity:0;
+    transform:translatey(-50px);
+  }
+ 
+  to{
+    opacity:1;
+    transform:translatey(0);
+  }
+ }
+
+
+.head-container{
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.nav-links a , button{
+    padding: 0 10px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-links button{
+    padding: 13px 23px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: #0B73B7;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+/* banner- content */
+.banner{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #0069D0, rgba(109, 168, 0, 0.71));
+    color: #fff;
+    box-shadow: 0px 3px 9px rgba(131, 130, 130, 0.6);
+}
+.banner-content{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 5px 30px;
+    min-height: 150px;
+}
+.banner-content i{
+    display: flex;
+    margin-bottom: 23px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.743);
+}
+.banner-content i small{
+    padding-left: 13px;
+}
+.banner-content i span{
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    white-space: nowrap;
+    color: white;
+}
+.banner-content h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.869);
+}
+
+/* main start */
+
+
+
+.first-child{
+    display: flex;
+     justify-content: center;
+     margin-top: 30px;
+     margin-bottom: 40px;
+}
+.child-items{
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.first-child a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.653);
+    font-weight: 600;
+     padding: 12px 20px;
+
+}
+.first-child a:hover{
+    background-color: rgba(0, 0, 0, 0.112);
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.child-items a:nth-child(2){
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(11, 115, 183, 0.19) 0px 4px 12px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(11, 115, 183);
+}
+
+
+.animate{
+  animation: fadeup 1s ease;
+  width: 100%;
+  display: flex;
+}
+@keyframes fadeup{
+  from{
+    opacity:0;
+    transform:translatey(50px);
+  }
+  to{
+    opacity:1;
+    transform:translatey(-0px);
+  }
+}
+
+.download-container{
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+.download{
+    text-align: center; 
+    margin-bottom: 30px;
+}
+.download h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.download p{
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgb(91, 91, 91);
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+.number-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.number-input input{
+    border-radius: 10px;
+    border: 2px solid #d0d5dd;
+    outline: none;
+    padding: 16px;
+    margin-bottom: 12px;
+    background-color: #fafbfe;
+}
+.number-input input::placeholder{
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.number-input input:focus{
+    border-color: #1685d4;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(22, 133, 212, 0.08);
+}
+.number-input button{
+    padding: 16px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #0069D0;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.number-input button:hover{
+    background: #0c71ad;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+.number-input p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.number-input p > span{
+    color: blue;
+}
+
+/* responsive design */
+@media (max-width: 720px) {
+    .nav-links{
+        display: none;
+    }
+    .fa-bars{
+        display: flex;
+    }
+}
+@media (max-width: 760px) {
+    .first-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .child-items{
+        display: flex;
+        flex-direction: column;
+        
+   }
+   .first-child a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.653);
+    font-weight: 600;
+     padding: 12px 30%;
+     white-space: nowrap;
+}
+.first-child a:hover{
+    background-color: rgba(0, 0, 0, 0.112);
+    padding: 12px 30%;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.child-items a:nth-child(2){
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(11, 115, 183, 0.19) 0px 4px 12px;
+    padding: 12px 30%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(11, 115, 183);
+    margin-bottom: 5px;
+}
+
+}
+
+@media (MAX-WIDTH:290px) {
+    .first-child{
+        padding: 0 10px;
+    }
+}
+@media (max-width:760px) {
+    .banner{
+        height: 200px;
+    }
+    .banner-content h1{
+        font-size: 35px;
+    }
+    .banner-content p{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .banner{
+        height: 180px;
+    }
+    .banner-content i{
+        margin-bottom: 15px;
+    }
+    .banner-content h1{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+   
+    .banner-content p{
+        font-size: 15px;
+    }
+}

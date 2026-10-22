@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="head-container">
+             <img src="./image/image.1.png" alt="salyani image" height="40px" width="80px">
+             <div class="nav-links">
+                   <a href="">home</a>
+                   <a href="">about</a>
+                   <a href="">courses</a>
+                   <a href="">campuses</a>
+                   <a href="">check result</a>
+                  <button> enroll now</button>
+             </div>
+             <i class="fa-solid fa-bars"></i>
+             
+        </div>
+    </header>
+
+    <div class="banner">
+         <div class="banner-content">
+             <i class="fa-solid fa-graduation-cap"><small>></small> <span>enroll now</span> </i>
+             <h1>registration form</h1>
+             <p>Start your journey towards excellence. Fill out the form to apply for our courses</p>
+         </div>
+    </div>
+
+        <div class="first-child">
+            <div class="child-items">
+               <a href="index.html">registration form</a>
+               <a href="id.html">download id card</a>
+               <a href="test.html">entry test status</a>
+               <a href="result.html">result</a>
+            </div>
+         </div>
+
+
+     <main>
+           <div class="enrollment-form">
+
+        <!-- =========================
+             LOCATION & COURSE DETAILS
+        ========================== -->
+        <section class="form-section">
+            <h2 class="section-title">
+                <span class="section-icon">⌖</span>
+                Location &amp; Course Details
+            </h2>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label for="country">Select Country<span>*</span></label>
+
+                    <div class="select-box">
+                        <select id="country" name="country">
+                            <option value="" selected disabled>
+                                Select country
+                            </option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="uae">United Arab Emirates</option>
+                            <option value="saudi-arabia">Saudi Arabia</option>
+                            <option value="uk">United Kingdom</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="class-preference">
+                        Select class preference<span>*</span>
+                    </label>
+
+                    <div class="select-box">
+                        <select>
+                          <option disabled>Select class preference</option>
+                          <option>online</option>
+                          <option>onsite</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Select Gender<span>*</span></label>
+
+                    <div class="select-box">
+                        <select id="gender" name="gender">
+                            <option value="" selected disabled>
+                                Select gender
+                            </option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="city">Select City<span>*</span></label>
+
+                    <div class="select-box">
+                        <select>
+                              <option disabled selected>Select country </option>
+                              <option>Karachi</option>
+                              <option>Faisalabad</option>
+                              <option>peshawar</option>
+                              <option>ghoti</option>
+                              <option>quetta</option>
+                               <option>rawalpindi</option>
+                               <option>sukkar</option>
+                               <option>gujranwala</option>
+                               <option>waziristan</option>
+                               <option>balochistan</option>
+                         </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="course">Select Course<span>*</span></label>
+
+                    <div class="select-box">
+                        
+                      <select>
+                              <option disabled selected>select course available</option>
+                              <option>AI Practitioner</option>
+                              <option>Multi Cloud Data Engineering</option>
+                              <option>Sales And Communication Mastery</option>
+                              <option>Mobile App Devolpment With Flutter</option>
+                              <option>UI UX Design With AI</option>
+                              <option>Mobile App Development (React Native)</option>
+                              <option>SOC Analyst</option>
+                              <option>CyberOps Associate</option>
+                              <option>Video Animation</option>
+                              <option>Devops Engineer </option>
+                              <option>Agentic AI</option>
+                              <option>Health, Safety and Environment (HSE) </option>
+                              <option >Domestic Electrician </option>
+                       </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="campus">Select Campus</label>
+
+                    <div class="select-box">
+                        <select>
+                                <option disabled selected>select campus</option>
+                                <option>Head Office Campus</option>
+                                <option>Zaitoon Ashraf IT Park</option>
+                                <option>Gulshan Campus</option>
+                                <option>Malir Campus</option>
+                                <option>Nazimabad Campus</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             PERSONAL INFORMATION
+        ========================== -->
+        <section class="form-section">
+            <h2 class="section-title">
+                <span class="section-icon">♙</span>
+                Personal Information
+            </h2>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label for="full-name">Full Name<span>*</span></label>
+
+                    <div class="input-box">
+                        <span class="input-icon">♙</span>
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="full-name"
+                            placeholder="Enter your full name"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="father-name">
+                        Father Name<span>*</span>
+                    </label>
+
+                    <div class="input-box">
+                        <span class="input-icon">♙</span>
+                        <input
+                            type="text"
+                            id="father-name"
+                            name="father-name"
+                            placeholder="Enter father's name"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="date-of-birth">
+                        Date of Birth<span>*</span>
+                    </label>
+
+                    <div class="input-box">
+                        <span class="input-icon">▣</span>
+                        <input
+                            type="date"
+                            id="date-of-birth"
+                            name="date-of-birth"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email<span>*</span></label>
+
+                    <div class="input-box">
+                        <span class="input-icon">✉</span>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="your.email@example.com"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone<span>*</span></label>
+
+                    <div class="input-box">
+                        <span class="input-icon">⌕</span>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter phone number"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="father-phone">
+                        Father's Phone<span>*</span>
+                    </label>
+
+                    <div class="input-box">
+                        <span class="input-icon">⌕</span>
+                        <input
+                            type="tel"
+                            id="father-phone"
+                            name="father-phone"
+                            placeholder="Enter phone number"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="id-number">ID Number<span>*</span></label>
+
+                    <div class="input-box">
+                        <span class="input-icon">▣</span>
+                        <input
+                            type="text"
+                            id="id-number"
+                            name="id-number"
+                            placeholder="Enter ID number"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="father-id">
+                        Father's ID Number<span>*</span>
+                    </label>
+
+                    <div class="input-box">
+                        <span class="input-icon">▣</span>
+                        <input
+                            type="text"
+                            id="father-id"
+                            name="father-id"
+                            placeholder="Enter ID number"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="address">
+                        Address<span>*</span>
+                        <small>(0/220 characters)</small>
+                    </label>
+
+                    <textarea
+                        id="address"
+                        name="address"
+                        maxlength="220"
+                        placeholder="Enter your complete address (minimum 10 characters)"
+                    ></textarea>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             EDUCATION & TECHNICAL DETAILS
+        ========================== -->
+        <section class="form-section">
+            <h2 class="section-title">
+                <span class="section-icon">▱</span>
+                Education &amp; Technical Details
+            </h2>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label for="computer-proficiency">
+                        Computer Proficiency<span>*</span>
+                    </label>
+
+                    <div class="select-box">
+                        <select
+                            id="computer-proficiency"
+                            name="computer-proficiency"
+                        >
+                            <option value="" selected disabled>
+                                Select your computer proficiency
+                            </option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="qualification">
+                        Last Qualification<span>*</span>
+                    </label>
+
+                    <div class="select-box">
+                        <select id="qualification" name="qualification">
+                            <option value="" selected disabled>
+                                Last qualification
+                            </option>
+                            <option value="matric">Matric</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="bachelor">Bachelor</option>
+                            <option value="master">Master</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="source">
+                        Where did you hear about us?<span>*</span>
+                    </label>
+
+                    <div class="select-box">
+                        <select id="source" name="source">
+                            <option value="" selected disabled>
+                                Where did you hear about us?
+                            </option>
+                            <option value="facebook">Facebook</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="youtube">YouTube</option>
+                            <option value="friend">Friend / Family</option>
+                            <option value="website">Website</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group full-width laptop-group">
+                    <label>Do you have a Laptop?<span>*</span></label>
+
+                    <div class="radio-group">
+
+                        <label class="radio-option">
+                            <input type="radio" name="laptop" value="yes">
+                            <span>Yes</span>
+                        </label>
+
+                        <label class="radio-option">
+                            <input type="radio" name="laptop" value="no">
+                            <span>No</span>
+                        </label>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             TERMS & CONDITIONS
+        ========================== -->
+        <section class="form-section">
+            <h2 class="section-title">
+                <span class="section-icon">♢</span>
+                Terms and Conditions
+            </h2>
+
+            <div class="terms-box">
+
+                <label class="checkbox-option">
+                    <input type="checkbox">
+
+                    <span>
+                        I hereby solemnly declare that all information provided
+                        in this application is true and accurate to the best of
+                        my knowledge. Furthermore, I agree to abide by all
+                        current and future rules, regulations, and policies
+                        established by SMIT.
+                    </span>
+                </label>
+
+                <label class="checkbox-option">
+                    <input type="checkbox">
+
+                    <span>
+                        I accept the responsibility to maintain good conduct
+                        throughout the program and commit to focusing solely on
+                        learning. I will not engage in any political, unethical,
+                        or unrelated activities during my enrollment. Any
+                        violation may result in immediate cancellation of my
+                        admission.
+                    </span>
+                </label>
+
+                <label class="checkbox-option">
+                    <input type="checkbox">
+
+                    <span>
+                        Upon completion of the course, I agree to successfully
+                        complete any project assigned by SMIT as part of the
+                        program requirements.
+                    </span>
+                </label>
+
+                <label class="checkbox-option">
+                    <input type="checkbox">
+
+                    <span>
+                        Female students are required to wear an abaya or hijab
+                        while attending classes.
+                    </span>
+                </label>
+
+                <div class="terms-divider"></div>
+
+                <p class="terms-footer">
+                    By submitting this form, you agree to our
+                    <a href="#">Privacy Policy</a> and
+                    <a href="#">Terms of Service.</a>
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             IMPORTANT NOTICE
+        ========================== -->
+        <div class="notice-box">
+
+            <div class="notice-icon">!</div>
+
+            <div>
+                <h3>Important Notice:</h3>
+
+                <p>
+                    Please ensure all information provided is accurate.
+                    Incomplete or false information may result in rejection
+                    of your application.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             SUBMIT BUTTON
+        ========================== -->
+        <button type="submit" class="submit-button">
+            <span class="submit-icon">▤</span>
+            Submit Registration
+        </button>
+
+    </div>
+     </main>
+             
+         
+</body>
+</html>
